@@ -1,0 +1,45 @@
+ul{
+    background-color: #f1c;
+    /* background: linear-gradient(180deg,#f1c 33%, blue 33%, blue 66%, green 66%); */
+    /* background: linear-gradient(60deg,#f1c 33%, blue 33%, blue 66%, green 66%); */
+    background: linear-gradient(to bottom right,#f1c 33%, blue 33%, blue 66%, green 66%);
+}
+section:first-of-type{
+    background-color: #f1c;
+    /* background: linear-gradient(180deg,#f1c 33%, blue 33%, blue 66%, green 66%); */
+    /* background: linear-gradient(60deg,#f1c 33%, blue 33%, blue 66%, green 66%); */
+    background: -webkit-linear-gradient(180deg,#f1c 33%, blue 33%, blue 66%, green 66%);
+}
+
+section{
+    width: 80%;
+    height: 500px;
+
+}
+
+.second{
+    background: radial-gradient(circle, green 20%, red 20%) ;
+}
+
+.third{
+    font-size: 3em;
+    color: transparent;
+    background: -webkit-repeating-linear-gradient(45deg, green 30%, red 32%) ;
+    background-clip: text;
+   
+}
+
+ul{
+    background: conic-gradient(
+        violet 15%,
+        cyan 15%,
+        cyan 25%,
+        blue 25%,
+        blue 40%,
+        purple 40%,
+        purple 65%,
+        gray 65%,
+        gray 80%,
+        crimson 80%
+    );
+}
